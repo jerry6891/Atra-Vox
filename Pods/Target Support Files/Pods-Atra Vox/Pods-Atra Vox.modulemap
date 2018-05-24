@@ -1,0 +1,6 @@
+framework module Pods_Atra_Vox {
+  umbrella header "Pods-Atra Vox-umbrella.h"
+
+  export *
+  module * { export * }
+}
