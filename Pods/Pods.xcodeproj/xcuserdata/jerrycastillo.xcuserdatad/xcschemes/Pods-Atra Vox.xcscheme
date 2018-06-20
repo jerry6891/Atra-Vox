@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C2B1083E9382B6E409B7D31F21C23F0C"
+               BlueprintIdentifier = "250742F13D7B3246606AEBCA7A6EFE40"
                BuildableName = "Pods_Atra_Vox.framework"
                BlueprintName = "Pods-Atra Vox"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C2B1083E9382B6E409B7D31F21C23F0C"
+            BlueprintIdentifier = "250742F13D7B3246606AEBCA7A6EFE40"
             BuildableName = "Pods_Atra_Vox.framework"
             BlueprintName = "Pods-Atra Vox"
             ReferencedContainer = "container:Pods.xcodeproj">

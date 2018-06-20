@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="O2l-vd-2vj">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--About-->
+        <scene sceneID="dwu-z2-FYG">
+            <objects>
+                <viewController id="O2l-vd-2vj" customClass="AboutController" customModule="Atra_Vox" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MId-AA-2v8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="349-xU-tTS">
+                                <rect key="frame" x="16" y="72" width="343" height="292"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="292" id="Xd3-vX-Ii0"/>
+                                </constraints>
+                                <string key="text">An iOS Music Player Application with a play, pause, forward, backward buttons, likewise it'll have a list screen where the user will be able to tap a song to listen quickly instead of tapping the forward and backward buttons that takes more time when searching for a specific song.
+
+Therefore, this App will have a long list via subgenras sections of black metal by adding a genra list before the songs list; I.E. raw, ambient, symphonic, depressive, true, pagan, evil, melodic.</string>
+                                <color key="textColor" red="0.92783966470000001" green="0.93702619610000004" blue="0.93702619610000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iOSFinalProjectIconFinal" translatesAutoresizingMaskIntoConstraints="NO" id="Zb4-as-Xfk">
+                                <rect key="frame" x="88" y="384" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="2si-JS-Sk9"/>
+                                    <constraint firstAttribute="height" constant="200" id="Jcl-zE-CLJ"/>
+                                    <constraint firstAttribute="width" secondItem="Zb4-as-Xfk" secondAttribute="height" multiplier="1:1" id="RXo-zy-Iux"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.14509803921568626" green="0.14509803921568626" blue="0.14509803921568626" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="349-xU-tTS" firstAttribute="leading" secondItem="F0g-3R-Eoh" secondAttribute="leading" constant="16" id="YKE-ih-S4w"/>
+                            <constraint firstItem="Zb4-as-Xfk" firstAttribute="leading" secondItem="F0g-3R-Eoh" secondAttribute="leading" constant="88" id="dTj-I3-7gP"/>
+                            <constraint firstItem="F0g-3R-Eoh" firstAttribute="trailing" secondItem="Zb4-as-Xfk" secondAttribute="trailing" constant="87" id="fDK-LQ-r35"/>
+                            <constraint firstItem="349-xU-tTS" firstAttribute="centerX" secondItem="MId-AA-2v8" secondAttribute="centerX" id="gMI-9x-OKt"/>
+                            <constraint firstItem="349-xU-tTS" firstAttribute="top" secondItem="F0g-3R-Eoh" secondAttribute="top" constant="8" id="gjS-Va-RkW"/>
+                            <constraint firstItem="Zb4-as-Xfk" firstAttribute="top" secondItem="349-xU-tTS" secondAttribute="bottom" constant="20" id="ix7-sC-Vzh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="F0g-3R-Eoh"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="About" id="fMW-BD-42t"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8We-em-YQj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="141.59999999999999" y="152.47376311844079"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="iOSFinalProjectIconFinal" width="1000" height="1000"/>
+    </resources>
+</document>

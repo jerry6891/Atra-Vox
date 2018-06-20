@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B0AE09D20D729EC003ED530 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0AE09C20D729EC003ED530 /* AVFoundation.framework */; };
+		0B2EBF7220C65DA300E15D33 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EBF7120C65DA300E15D33 /* Cell.swift */; };
 		0B5D26CD20A005EB004FBBA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5D26CC20A005EB004FBBA1 /* AppDelegate.swift */; };
 		0B5D26CF20A005EB004FBBA1 /* SubGenrasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5D26CE20A005EB004FBBA1 /* SubGenrasController.swift */; };
 		0B5D26D220A005EB004FBBA1 /* SubGenras.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B5D26D020A005EB004FBBA1 /* SubGenras.storyboard */; };
 		0B5D26D420A005EC004FBBA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B5D26D320A005EC004FBBA1 /* Assets.xcassets */; };
 		0B5D26D720A005EC004FBBA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B5D26D520A005EC004FBBA1 /* LaunchScreen.storyboard */; };
+		0B728E2620CDF80700D280C2 /* GenraController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B728E2520CDF80700D280C2 /* GenraController.storyboard */; };
+		0B728E2820CE08BD00D280C2 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B728E2720CE08BD00D280C2 /* Music.swift */; };
+		0B728E2B20CE5B9F00D280C2 /* SongsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B728E2A20CE5B9F00D280C2 /* SongsCell.swift */; };
 		0BC8686420A0D433000EF7AC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BC8686320A0D433000EF7AC /* GoogleService-Info.plist */; };
+		0BDF6C6420CB45710052FE54 /* GenraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDF6C6320CB45710052FE54 /* GenraController.swift */; };
+		0BDF6C6920CB5E080052FE54 /* AboutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDF6C6820CB5E080052FE54 /* AboutController.swift */; };
+		0BDF6C6B20CB5E230052FE54 /* AboutController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BDF6C6A20CB5E230052FE54 /* AboutController.storyboard */; };
 		0BEE52CF20A56EA000C5C933 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE52CE20A56EA000C5C933 /* TabBarController.swift */; };
 		0BEE52D120A56EB400C5C933 /* TabBarController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE52D020A56EB400C5C933 /* TabBarController.storyboard */; };
 		0BEE52D420A5761500C5C933 /* MainPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE52D320A5761500C5C933 /* MainPlayerController.swift */; };
@@ -23,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B0AE09C20D729EC003ED530 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0B2EBF7120C65DA300E15D33 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		0B5D26C920A005EB004FBBA1 /* Atra Vox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Atra Vox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B5D26CC20A005EB004FBBA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B5D26CE20A005EB004FBBA1 /* SubGenrasController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubGenrasController.swift; sourceTree = "<group>"; };
@@ -30,7 +40,13 @@
 		0B5D26D320A005EC004FBBA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B5D26D620A005EC004FBBA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B5D26D820A005EC004FBBA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B728E2520CDF80700D280C2 /* GenraController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GenraController.storyboard; sourceTree = "<group>"; };
+		0B728E2720CE08BD00D280C2 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		0B728E2A20CE5B9F00D280C2 /* SongsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsCell.swift; sourceTree = "<group>"; };
 		0BC8686320A0D433000EF7AC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0BDF6C6320CB45710052FE54 /* GenraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenraController.swift; sourceTree = "<group>"; };
+		0BDF6C6820CB5E080052FE54 /* AboutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutController.swift; sourceTree = "<group>"; };
+		0BDF6C6A20CB5E230052FE54 /* AboutController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AboutController.storyboard; sourceTree = "<group>"; };
 		0BEE52CE20A56EA000C5C933 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		0BEE52D020A56EB400C5C933 /* TabBarController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBarController.storyboard; sourceTree = "<group>"; };
 		0BEE52D320A5761500C5C933 /* MainPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPlayerController.swift; sourceTree = "<group>"; };
@@ -47,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B0AE09D20D729EC003ED530 /* AVFoundation.framework in Frameworks */,
 				D3061E268CB216078DE84C82 /* Pods_Atra_Vox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,6 +71,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B2EBF7320C65DA900E15D33 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0B2EBF7120C65DA300E15D33 /* Cell.swift */,
+				0B728E2A20CE5B9F00D280C2 /* SongsCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		0B5D26C020A005EB004FBBA1 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +107,8 @@
 				0BEE52D220A56EBD00C5C933 /* Tab Bar */,
 				0BEE52D720A5775700C5C933 /* Main Player */,
 				0BEE52DC20A5798B00C5C933 /* Settings */,
+				0B2EBF7320C65DA900E15D33 /* Cells */,
+				0B728E2920CE08C700D280C2 /* Data Models */,
 			);
 			path = "Atra Vox";
 			sourceTree = "<group>";
@@ -98,8 +126,26 @@
 			children = (
 				0B5D26CE20A005EB004FBBA1 /* SubGenrasController.swift */,
 				0B5D26D020A005EB004FBBA1 /* SubGenras.storyboard */,
+				0BDF6C6720CB45910052FE54 /* Genras */,
 			);
 			path = SubGenras;
+			sourceTree = "<group>";
+		};
+		0B728E2920CE08C700D280C2 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				0B728E2720CE08BD00D280C2 /* Music.swift */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		0BDF6C6720CB45910052FE54 /* Genras */ = {
+			isa = PBXGroup;
+			children = (
+				0BDF6C6320CB45710052FE54 /* GenraController.swift */,
+				0B728E2520CDF80700D280C2 /* GenraController.storyboard */,
+			);
+			path = Genras;
 			sourceTree = "<group>";
 		};
 		0BEE52CD20A56D5B00C5C933 /* Supporting Files */ = {
@@ -136,6 +182,8 @@
 			children = (
 				0BEE52D820A578E500C5C933 /* SettingsController.swift */,
 				0BEE52DA20A578F300C5C933 /* SettingsController.storyboard */,
+				0BDF6C6820CB5E080052FE54 /* AboutController.swift */,
+				0BDF6C6A20CB5E230052FE54 /* AboutController.storyboard */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -143,6 +191,7 @@
 		7D16E45F42257299E46E429D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0B0AE09C20D729EC003ED530 /* AVFoundation.framework */,
 				C2B47A6D455BE8D53216BA48 /* Pods_Atra_Vox.framework */,
 			);
 			name = Frameworks;
@@ -192,6 +241,11 @@
 				TargetAttributes = {
 					0B5D26C820A005EB004FBBA1 = {
 						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -218,8 +272,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BDF6C6B20CB5E230052FE54 /* AboutController.storyboard in Resources */,
 				0B5D26D720A005EC004FBBA1 /* LaunchScreen.storyboard in Resources */,
 				0BC8686420A0D433000EF7AC /* GoogleService-Info.plist in Resources */,
+				0B728E2620CDF80700D280C2 /* GenraController.storyboard in Resources */,
 				0BEE52D120A56EB400C5C933 /* TabBarController.storyboard in Resources */,
 				0BEE52DB20A578F300C5C933 /* SettingsController.storyboard in Resources */,
 				0B5D26D420A005EC004FBBA1 /* Assets.xcassets in Resources */,
@@ -273,6 +329,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Atra Vox/Pods-Atra Vox-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -280,6 +337,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -300,6 +358,11 @@
 				0B5D26CF20A005EB004FBBA1 /* SubGenrasController.swift in Sources */,
 				0B5D26CD20A005EB004FBBA1 /* AppDelegate.swift in Sources */,
 				0BEE52D420A5761500C5C933 /* MainPlayerController.swift in Sources */,
+				0BDF6C6420CB45710052FE54 /* GenraController.swift in Sources */,
+				0B728E2B20CE5B9F00D280C2 /* SongsCell.swift in Sources */,
+				0B728E2820CE08BD00D280C2 /* Music.swift in Sources */,
+				0B2EBF7220C65DA300E15D33 /* Cell.swift in Sources */,
+				0BDF6C6920CB5E080052FE54 /* AboutController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

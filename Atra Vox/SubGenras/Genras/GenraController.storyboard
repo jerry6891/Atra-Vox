@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5AP-gn-yPq">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Genra Controller-->
+        <scene sceneID="hvn-hL-Zeg">
+            <objects>
+                <viewController id="5AP-gn-yPq" customClass="GenraController" customModule="Atra_Vox" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vH3-Vg-33b">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BLACK METAL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A8J-WP-6Mh">
+                                <rect key="frame" x="40" y="82" width="294.5" height="54"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Bold" family="Bodoni 72" pointSize="45"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Songs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UtU-Vd-FEE">
+                                <rect key="frame" x="153" y="136" width="69" height="37"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rmO-oM-x1b">
+                                <rect key="frame" x="0.0" y="200" width="375" height="467"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="rmO-oM-x1b" secondAttribute="height" multiplier="375:467" id="dtk-Fh-RlI"/>
+                                </constraints>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SongsCell" rowHeight="42" id="S0j-3d-Ozk" customClass="SongsCell" customModule="Atra_Vox" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="42"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="S0j-3d-Ozk" id="tbH-fm-eDL">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="41.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PhI-Ad-1qD" userLabel="BandLabel">
+                                                    <rect key="frame" x="15" y="11" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kuw-FA-50w">
+                                                    <rect key="frame" x="72" y="11" width="8" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDz-Ot-MWJ" userLabel="TitleLabel">
+                                                    <rect key="frame" x="95" y="11" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="kuw-FA-50w" firstAttribute="top" secondItem="tbH-fm-eDL" secondAttribute="top" constant="11" id="21d-Wf-dL1"/>
+                                                <constraint firstItem="PhI-Ad-1qD" firstAttribute="top" secondItem="tbH-fm-eDL" secondAttribute="top" constant="11" id="HBb-Jb-KW2"/>
+                                                <constraint firstItem="kuw-FA-50w" firstAttribute="leading" secondItem="PhI-Ad-1qD" secondAttribute="trailing" constant="15" id="Hc9-Qn-AuC"/>
+                                                <constraint firstItem="NDz-Ot-MWJ" firstAttribute="top" secondItem="tbH-fm-eDL" secondAttribute="top" constant="11" id="bTe-vK-9mb"/>
+                                                <constraint firstItem="NDz-Ot-MWJ" firstAttribute="leading" secondItem="kuw-FA-50w" secondAttribute="trailing" constant="15" id="buw-gX-Obc"/>
+                                                <constraint firstItem="PhI-Ad-1qD" firstAttribute="leading" secondItem="tbH-fm-eDL" secondAttribute="leading" constant="15" id="wye-tM-xTR"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="bandLabel" destination="PhI-Ad-1qD" id="boQ-fC-eQr"/>
+                                            <outlet property="titleLabel" destination="NDz-Ot-MWJ" id="ZaV-43-7Ou"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="5AP-gn-yPq" id="VLz-fu-MuX"/>
+                                    <outlet property="delegate" destination="5AP-gn-yPq" id="1zq-cY-3yR"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.14509803921568626" green="0.14509803921568626" blue="0.14509803921568626" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rmO-oM-x1b" firstAttribute="trailing" secondItem="TrW-a3-1jk" secondAttribute="trailing" id="0oq-Dw-sgx"/>
+                            <constraint firstItem="UtU-Vd-FEE" firstAttribute="top" secondItem="A8J-WP-6Mh" secondAttribute="bottom" id="7KG-Db-vHd"/>
+                            <constraint firstItem="A8J-WP-6Mh" firstAttribute="leading" secondItem="TrW-a3-1jk" secondAttribute="leading" constant="40" id="GuA-Kn-210"/>
+                            <constraint firstItem="UtU-Vd-FEE" firstAttribute="leading" secondItem="TrW-a3-1jk" secondAttribute="leading" constant="153" id="cvZ-Q6-QCy"/>
+                            <constraint firstItem="A8J-WP-6Mh" firstAttribute="top" secondItem="TrW-a3-1jk" secondAttribute="top" constant="18" id="e33-fN-6Dh"/>
+                            <constraint firstItem="rmO-oM-x1b" firstAttribute="top" secondItem="UtU-Vd-FEE" secondAttribute="bottom" constant="27" id="h0J-ev-OKc"/>
+                            <constraint firstItem="rmO-oM-x1b" firstAttribute="leading" secondItem="TrW-a3-1jk" secondAttribute="leading" id="red-YD-EAs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="TrW-a3-1jk"/>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
+                    <connections>
+                        <outlet property="subGenrasName" destination="UtU-Vd-FEE" id="hPw-7S-nHF"/>
+                        <outlet property="tableView" destination="rmO-oM-x1b" id="Xo2-yn-Uon"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jbQ-3p-A7z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="141.59999999999999" y="160.56971514242881"/>
+        </scene>
+    </scenes>
+</document>
