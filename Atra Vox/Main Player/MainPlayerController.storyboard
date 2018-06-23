@@ -91,7 +91,7 @@
                                 </subviews>
                             </stackView>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="jpT-5b-2ez">
-                                <rect key="frame" x="39" y="458.5" width="299" height="31"/>
+                                <rect key="frame" x="39" y="451" width="299" height="38.5"/>
                                 <color key="tintColor" red="0.69439979399999996" green="0.24119916559999999" blue="0.1668418944" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="thumbTintColor" red="0.2386936865" green="0.0" blue="0.0022345919429999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
@@ -99,7 +99,7 @@
                                 </connections>
                             </slider>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iOSFinalProjectIconFinal" translatesAutoresizingMaskIntoConstraints="NO" id="BAV-7v-TnG">
-                                <rect key="frame" x="88" y="241.5" width="200" height="200"/>
+                                <rect key="frame" x="88" y="234" width="200" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="86j-zf-L4I"/>
                                     <constraint firstAttribute="width" secondItem="BAV-7v-TnG" secondAttribute="height" multiplier="1:1" id="8UP-14-Lba"/>
@@ -107,8 +107,8 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ts8-KY-XBY">
-                                <rect key="frame" x="41" y="185.5" width="293.5" height="31.5"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="26"/>
+                                <rect key="frame" x="41" y="185.5" width="293.5" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                 <color key="textColor" red="0.92783966470000001" green="0.93702619610000004" blue="0.93702619610000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>

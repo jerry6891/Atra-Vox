@@ -16,7 +16,7 @@ import AVKit
 var avPlayer: AVPlayer = AVPlayer()
 var avAudioPlayer: AVAudioPlayer!
 var thisSong = 0
-var thisSongName = "\(thisSong)"
+var thisSongName = globalSongs[thisSong].band! + " - " + globalSongs[thisSong].title!
 final class GenraController: UIViewController, UITableViewDelegate, UITableViewDataSource, AVAudioPlayerDelegate{
     
     var ref: DatabaseReference!
@@ -26,22 +26,6 @@ final class GenraController: UIViewController, UITableViewDelegate, UITableViewD
     @IBOutlet var tableView: UITableView!
     var genra: String!
     fileprivate var songs = [Music]()
-    
-    /* func playSoundWith(fileName: String, fileExtension: String) -> Void{
-        let audioSourceUrl: URL!
-        audioSourceUrl = Bundle.main.url(forResource: fileName, withExtension: fileExtension)
-        if audioSourceUrl == nil{
-            print("Requested Song Can't Be Played.")
-        } else {
-            do {
-                player = try AVAudioPlayer.init(contentsOf: audioSourceUrl!)
-                player.prepareToPlay()
-                player.play()
-            } catch {
-                print(error)
-            }
-        }
-    } */
     
     // MARK: Initialization.
     override func viewDidLoad() {
@@ -64,6 +48,7 @@ final class GenraController: UIViewController, UITableViewDelegate, UITableViewD
                 songs.append(song)
             }
             self.songs = songs
+            globalSongs = songs
             self.tableView.reloadData()
         }
     }
@@ -74,7 +59,7 @@ final class GenraController: UIViewController, UITableViewDelegate, UITableViewD
     }
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
-        return songs.count
+        return globalSongs.count
     }
     
     /* public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -83,26 +68,25 @@ final class GenraController: UIViewController, UITableViewDelegate, UITableViewD
     
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
         let cell = tableView.dequeueReusableCell(withIdentifier: "SongsCell", for: indexPath) as! SongsCell
-        let genra = songs[indexPath.row]
+        let genra = globalSongs[indexPath.row]
         cell.setData(genra: genra)
         return cell
     }
     
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath){
-        let bmSong = songs[indexPath.row].url
-        if let mp3URL = URL(string: bmSong!) {
-            avPlayer = AVPlayer(url: mp3URL)
-            avPlayer.play()
-            // thisSongName = songs[indexPath.row].band! + " - " + songs[indexPath.row].title!
-        }
         thisSong = indexPath.row
-        thisSongName = songs[indexPath.row].title!
+        thisSongName = globalSongs[thisSong].band! + " - " + globalSongs[thisSong].title!
+        let bmSong = globalSongs[indexPath.row].url
+            if let mp3URL = URL(string: bmSong!) {
+                avPlayer = AVPlayer(url: mp3URL)
+                avPlayer.play()
+            }
         /* do {
             let bmSong = songs[indexPath.row].url
             if let mp3URL = URL(string: bmSong!) {
             avAudioPlayer = try AVAudioPlayer(contentsOf: mp3URL)
             avAudioPlayer.play()
             }
-        } catch { print("Error") } */
+        } catch { print(error) } */
     }
 }
