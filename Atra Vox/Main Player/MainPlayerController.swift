@@ -12,6 +12,7 @@ import Firebase
 import AVFoundation
 import MediaPlayer
 import AVKit
+import Kingfisher
 
 var globalSongs = [Music]()
 final class MainPlayerController: UIViewController{

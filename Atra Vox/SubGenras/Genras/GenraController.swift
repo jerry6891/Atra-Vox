@@ -12,11 +12,12 @@ import Firebase
 import AVFoundation
 import MediaPlayer
 import AVKit
+import Kingfisher
 
 var avPlayer: AVPlayer = AVPlayer()
 var avAudioPlayer: AVAudioPlayer!
 var thisSong = 0
-var thisSongName = globalSongs[thisSong].band! + " - " + globalSongs[thisSong].title!
+var thisSongName = ""
 final class GenraController: UIViewController, UITableViewDelegate, UITableViewDataSource, AVAudioPlayerDelegate{
     
     var ref: DatabaseReference!
