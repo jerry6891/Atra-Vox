@@ -9,6 +9,4 @@
 import Foundation
 import UIKit
 
-final class AboutController: UIViewController{
-    
-}
+final class AboutController: UIViewController {}

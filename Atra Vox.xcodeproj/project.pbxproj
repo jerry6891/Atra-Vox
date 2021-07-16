@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -27,6 +27,64 @@
 		0BEE52D620A5764400C5C933 /* MainPlayerController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE52D520A5764400C5C933 /* MainPlayerController.storyboard */; };
 		0BEE52D920A578E500C5C933 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE52D820A578E500C5C933 /* SettingsController.swift */; };
 		0BEE52DB20A578F300C5C933 /* SettingsController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE52DA20A578F300C5C933 /* SettingsController.storyboard */; };
+		D05497C6265782D500423BE1 /* atravoxdata.json in Resources */ = {isa = PBXBuildFile; fileRef = D05497C5265782D500423BE1 /* atravoxdata.json */; };
+		D05497C82657833100423BE1 /* downfallofnur-thegoldenage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D05497C72657833100423BE1 /* downfallofnur-thegoldenage.mp3 */; };
+		D086A3262659E60D001B5C43 /* SongModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D086A3252659E60D001B5C43 /* SongModel.swift */; };
+		D086A3282659E628001B5C43 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D086A3272659E628001B5C43 /* ViewModel.swift */; };
+		D0DC82B42658E3540029D05E /* mord-morningfog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82822658E3530029D05E /* mord-morningfog.mp3 */; };
+		D0DC82B52658E3540029D05E /* dimmuborgir-broderskapetsring.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82832658E3530029D05E /* dimmuborgir-broderskapetsring.mp3 */; };
+		D0DC82B62658E3540029D05E /* saatkrаhe-spreadyourwings.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82842658E3530029D05E /* saatkrаhe-spreadyourwings.mp3 */; };
+		D0DC82B72658E3540029D05E /* ezgaroth-innominemagnideinostrisathanas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82852658E3530029D05E /* ezgaroth-innominemagnideinostrisathanas.mp3 */; };
+		D0DC82B82658E3540029D05E /* summoning-morthond.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82862658E3530029D05E /* summoning-morthond.mp3 */; };
+		D0DC82B92658E3540029D05E /* darkfuneral-openthegates.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82872658E3530029D05E /* darkfuneral-openthegates.mp3 */; };
+		D0DC82BA2658E3540029D05E /* elffor-infernalwoods.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82882658E3530029D05E /* elffor-infernalwoods.mp3 */; };
+		D0DC82BB2658E3540029D05E /* atra-upturningthecurse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82892658E3530029D05E /* atra-upturningthecurse.mp3 */; };
+		D0DC82BC2658E3540029D05E /* ferriterium-feralecarmen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC828A2658E3530029D05E /* ferriterium-feralecarmen.mp3 */; };
+		D0DC82BD2658E3540029D05E /* eternum-bloodofthefree.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC828B2658E3530029D05E /* eternum-bloodofthefree.mp3 */; };
+		D0DC82BE2658E3540029D05E /* darkfuneral-vobiscumsatanas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC828C2658E3530029D05E /* darkfuneral-vobiscumsatanas.mp3 */; };
+		D0DC82BF2658E3540029D05E /* baptism-onlydeath.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC828D2658E3530029D05E /* baptism-onlydeath.mp3 */; };
+		D0DC82C02658E3540029D05E /* dimmuborgir-stormblast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC828E2658E3530029D05E /* dimmuborgir-stormblast.mp3 */; };
+		D0DC82C12658E3540029D05E /* sarvari-thereturnofgreatgodpan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC828F2658E3530029D05E /* sarvari-thereturnofgreatgodpan.mp3 */; };
+		D0DC82C22658E3540029D05E /* siculicidium-lebomlaslelassulas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82902658E3530029D05E /* siculicidium-lebomlaslelassulas.mp3 */; };
+		D0DC82C32658E3540029D05E /* noenum-gatestomanicdepressionandsuicide.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82912658E3530029D05E /* noenum-gatestomanicdepressionandsuicide.mp3 */; };
+		D0DC82C42658E3540029D05E /* sarath-sisteindre.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82922658E3530029D05E /* sarath-sisteindre.mp3 */; };
+		D0DC82C52658E3540029D05E /* stutthof-wampyricmetamorphosis.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82932658E3530029D05E /* stutthof-wampyricmetamorphosis.mp3 */; };
+		D0DC82C62658E3540029D05E /* darkfuneral-darkarethepathstoeternity.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82942658E3530029D05E /* darkfuneral-darkarethepathstoeternity.mp3 */; };
+		D0DC82C72658E3540029D05E /* diabolusritus-thecoldmoon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82952658E3530029D05E /* diabolusritus-thecoldmoon.mp3 */; };
+		D0DC82C82658E3540029D05E /* astaroth-theblackgoat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82962658E3530029D05E /* astaroth-theblackgoat.mp3 */; };
+		D0DC82C92658E3540029D05E /* hamys-hauraudenjuuret.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82972658E3530029D05E /* hamys-hauraudenjuuret.mp3 */; };
+		D0DC82CA2658E3540029D05E /* darkfuneral-heartofice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82982658E3530029D05E /* darkfuneral-heartofice.mp3 */; };
+		D0DC82CB2658E3540029D05E /* wyrd-ravenhill.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82992658E3530029D05E /* wyrd-ravenhill.mp3 */; };
+		D0DC82CC2658E3540029D05E /* orcultus-purifyingplague.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC829A2658E3530029D05E /* orcultus-purifyingplague.mp3 */; };
+		D0DC82CD2658E3540029D05E /* incursus-whendeathenthronesourdarkness.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC829B2658E3530029D05E /* incursus-whendeathenthronesourdarkness.mp3 */; };
+		D0DC82CE2658E3540029D05E /* asmodeus-decretumexecutionis.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC829C2658E3530029D05E /* asmodeus-decretumexecutionis.mp3 */; };
+		D0DC82CF2658E3540029D05E /* gorgoroth-possessedbysatan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC829D2658E3530029D05E /* gorgoroth-possessedbysatan.mp3 */; };
+		D0DC82D02658E3540029D05E /* initiation-torturedshadowofawitheringsoul.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC829E2658E3530029D05E /* initiation-torturedshadowofawitheringsoul.mp3 */; };
+		D0DC82D12658E3540029D05E /* gromm-fromdirttoscum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC829F2658E3530029D05E /* gromm-fromdirttoscum.mp3 */; };
+		D0DC82D22658E3540029D05E /* dimmuborgir-allegiance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82A02658E3530029D05E /* dimmuborgir-allegiance.mp3 */; };
+		D0DC82D32658E3540029D05E /* stellaarja-borningstarbymyself.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82A12658E3530029D05E /* stellaarja-borningstarbymyself.mp3 */; };
+		D0DC82D42658E3540029D05E /* darkfuneral-mydarkdesires.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82A22658E3530029D05E /* darkfuneral-mydarkdesires.mp3 */; };
+		D0DC82D52658E3540029D05E /* kingovantichrists-waroftheking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82A32658E3530029D05E /* kingovantichrists-waroftheking.mp3 */; };
+		D0DC82D62658E3540029D05E /* genune-innerdepths.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82A42658E3530029D05E /* genune-innerdepths.mp3 */; };
+		D0DC82D72658E3540029D05E /* gorgoroth-gorgoroth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82A52658E3530029D05E /* gorgoroth-gorgoroth.mp3 */; };
+		D0DC82D82658E3540029D05E /* darkfuneral-paganfears.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82A62658E3530029D05E /* darkfuneral-paganfears.mp3 */; };
+		D0DC82D92658E3540029D05E /* mysterionnoctum-granitpotemneet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82A72658E3530029D05E /* mysterionnoctum-granitpotemneet.mp3 */; };
+		D0DC82DA2658E3540029D05E /* gorgoroth-destroyer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82A82658E3530029D05E /* gorgoroth-destroyer.mp3 */; };
+		D0DC82DB2658E3540029D05E /* paroxysmaldescent-beyondthethreshold.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82A92658E3530029D05E /* paroxysmaldescent-beyondthethreshold.mp3 */; };
+		D0DC82DC2658E3540029D05E /* darkfuneral-inmydreams.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82AA2658E3530029D05E /* darkfuneral-inmydreams.mp3 */; };
+		D0DC82DD2658E3540029D05E /* dimmuborgir-dodsferd.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82AB2658E3530029D05E /* dimmuborgir-dodsferd.mp3 */; };
+		D0DC82DE2658E3540029D05E /* darchon-fromunknownvastlandsofisolationanddeath.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82AC2658E3540029D05E /* darchon-fromunknownvastlandsofisolationanddeath.mp3 */; };
+		D0DC82DF2658E3540029D05E /* coldfrozengrave-ataleofcurseandplague.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82AD2658E3540029D05E /* coldfrozengrave-ataleofcurseandplague.mp3 */; };
+		D0DC82E02658E3540029D05E /* kaosritual-djevelpaktogtrolldomsmakt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82AE2658E3540029D05E /* kaosritual-djevelpaktogtrolldomsmakt.mp3 */; };
+		D0DC82E12658E3540029D05E /* ritualsofablasphemer-chaosconsumedexistence.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82AF2658E3540029D05E /* ritualsofablasphemer-chaosconsumedexistence.mp3 */; };
+		D0DC82E22658E3540029D05E /* grimdestroyer-nostalgiaofthedead.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82B02658E3540029D05E /* grimdestroyer-nostalgiaofthedead.mp3 */; };
+		D0DC82E32658E3540029D05E /* drakonhail-errancemonotone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82B12658E3540029D05E /* drakonhail-errancemonotone.mp3 */; };
+		D0DC82E42658E3540029D05E /* belphegor-fleischrequiem69.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82B22658E3540029D05E /* belphegor-fleischrequiem69.mp3 */; };
+		D0DC82E52658E3540029D05E /* darkfuneral-anapprenticeofsatan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82B32658E3540029D05E /* darkfuneral-anapprenticeofsatan.mp3 */; };
+		D0DC82EA2658E4480029D05E /* mayhem-paganfears.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82E62658E4480029D05E /* mayhem-paganfears.mp3 */; };
+		D0DC82EB2658E4480029D05E /* mayhem-demysteriisdomsathanas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82E72658E4480029D05E /* mayhem-demysteriisdomsathanas.mp3 */; };
+		D0DC82EC2658E4480029D05E /* mayhem-fromthedarkpast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82E82658E4480029D05E /* mayhem-fromthedarkpast.mp3 */; };
+		D0DC82ED2658E4480029D05E /* mayhem-cursedineternity.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0DC82E92658E4480029D05E /* mayhem-cursedineternity.mp3 */; };
 		D3061E268CB216078DE84C82 /* Pods_Atra_Vox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B47A6D455BE8D53216BA48 /* Pods_Atra_Vox.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +113,64 @@
 		0BEE52DA20A578F300C5C933 /* SettingsController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingsController.storyboard; sourceTree = "<group>"; };
 		6023B4AA5363146391C44C61 /* Pods-Atra Vox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atra Vox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Atra Vox/Pods-Atra Vox.debug.xcconfig"; sourceTree = "<group>"; };
 		C2B47A6D455BE8D53216BA48 /* Pods_Atra_Vox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Atra_Vox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05497C5265782D500423BE1 /* atravoxdata.json */ = {isa = PBXFileReference; explicitFileType = text.json; fileEncoding = 4; name = atravoxdata.json; path = "Atra Vox/atravoxdata.json"; sourceTree = "<group>"; };
+		D05497C72657833100423BE1 /* downfallofnur-thegoldenage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "downfallofnur-thegoldenage.mp3"; sourceTree = "<group>"; };
+		D086A3252659E60D001B5C43 /* SongModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongModel.swift; sourceTree = "<group>"; };
+		D086A3272659E628001B5C43 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		D0DC82822658E3530029D05E /* mord-morningfog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mord-morningfog.mp3"; sourceTree = "<group>"; };
+		D0DC82832658E3530029D05E /* dimmuborgir-broderskapetsring.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dimmuborgir-broderskapetsring.mp3"; sourceTree = "<group>"; };
+		D0DC82842658E3530029D05E /* saatkrаhe-spreadyourwings.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "saatkrаhe-spreadyourwings.mp3"; sourceTree = "<group>"; };
+		D0DC82852658E3530029D05E /* ezgaroth-innominemagnideinostrisathanas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ezgaroth-innominemagnideinostrisathanas.mp3"; sourceTree = "<group>"; };
+		D0DC82862658E3530029D05E /* summoning-morthond.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "summoning-morthond.mp3"; sourceTree = "<group>"; };
+		D0DC82872658E3530029D05E /* darkfuneral-openthegates.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "darkfuneral-openthegates.mp3"; sourceTree = "<group>"; };
+		D0DC82882658E3530029D05E /* elffor-infernalwoods.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "elffor-infernalwoods.mp3"; sourceTree = "<group>"; };
+		D0DC82892658E3530029D05E /* atra-upturningthecurse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "atra-upturningthecurse.mp3"; sourceTree = "<group>"; };
+		D0DC828A2658E3530029D05E /* ferriterium-feralecarmen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ferriterium-feralecarmen.mp3"; sourceTree = "<group>"; };
+		D0DC828B2658E3530029D05E /* eternum-bloodofthefree.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "eternum-bloodofthefree.mp3"; sourceTree = "<group>"; };
+		D0DC828C2658E3530029D05E /* darkfuneral-vobiscumsatanas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "darkfuneral-vobiscumsatanas.mp3"; sourceTree = "<group>"; };
+		D0DC828D2658E3530029D05E /* baptism-onlydeath.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "baptism-onlydeath.mp3"; sourceTree = "<group>"; };
+		D0DC828E2658E3530029D05E /* dimmuborgir-stormblast.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dimmuborgir-stormblast.mp3"; sourceTree = "<group>"; };
+		D0DC828F2658E3530029D05E /* sarvari-thereturnofgreatgodpan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sarvari-thereturnofgreatgodpan.mp3"; sourceTree = "<group>"; };
+		D0DC82902658E3530029D05E /* siculicidium-lebomlaslelassulas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "siculicidium-lebomlaslelassulas.mp3"; sourceTree = "<group>"; };
+		D0DC82912658E3530029D05E /* noenum-gatestomanicdepressionandsuicide.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "noenum-gatestomanicdepressionandsuicide.mp3"; sourceTree = "<group>"; };
+		D0DC82922658E3530029D05E /* sarath-sisteindre.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sarath-sisteindre.mp3"; sourceTree = "<group>"; };
+		D0DC82932658E3530029D05E /* stutthof-wampyricmetamorphosis.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "stutthof-wampyricmetamorphosis.mp3"; sourceTree = "<group>"; };
+		D0DC82942658E3530029D05E /* darkfuneral-darkarethepathstoeternity.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "darkfuneral-darkarethepathstoeternity.mp3"; sourceTree = "<group>"; };
+		D0DC82952658E3530029D05E /* diabolusritus-thecoldmoon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "diabolusritus-thecoldmoon.mp3"; sourceTree = "<group>"; };
+		D0DC82962658E3530029D05E /* astaroth-theblackgoat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "astaroth-theblackgoat.mp3"; sourceTree = "<group>"; };
+		D0DC82972658E3530029D05E /* hamys-hauraudenjuuret.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "hamys-hauraudenjuuret.mp3"; sourceTree = "<group>"; };
+		D0DC82982658E3530029D05E /* darkfuneral-heartofice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "darkfuneral-heartofice.mp3"; sourceTree = "<group>"; };
+		D0DC82992658E3530029D05E /* wyrd-ravenhill.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "wyrd-ravenhill.mp3"; sourceTree = "<group>"; };
+		D0DC829A2658E3530029D05E /* orcultus-purifyingplague.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "orcultus-purifyingplague.mp3"; sourceTree = "<group>"; };
+		D0DC829B2658E3530029D05E /* incursus-whendeathenthronesourdarkness.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "incursus-whendeathenthronesourdarkness.mp3"; sourceTree = "<group>"; };
+		D0DC829C2658E3530029D05E /* asmodeus-decretumexecutionis.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "asmodeus-decretumexecutionis.mp3"; sourceTree = "<group>"; };
+		D0DC829D2658E3530029D05E /* gorgoroth-possessedbysatan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "gorgoroth-possessedbysatan.mp3"; sourceTree = "<group>"; };
+		D0DC829E2658E3530029D05E /* initiation-torturedshadowofawitheringsoul.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "initiation-torturedshadowofawitheringsoul.mp3"; sourceTree = "<group>"; };
+		D0DC829F2658E3530029D05E /* gromm-fromdirttoscum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "gromm-fromdirttoscum.mp3"; sourceTree = "<group>"; };
+		D0DC82A02658E3530029D05E /* dimmuborgir-allegiance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dimmuborgir-allegiance.mp3"; sourceTree = "<group>"; };
+		D0DC82A12658E3530029D05E /* stellaarja-borningstarbymyself.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "stellaarja-borningstarbymyself.mp3"; sourceTree = "<group>"; };
+		D0DC82A22658E3530029D05E /* darkfuneral-mydarkdesires.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "darkfuneral-mydarkdesires.mp3"; sourceTree = "<group>"; };
+		D0DC82A32658E3530029D05E /* kingovantichrists-waroftheking.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "kingovantichrists-waroftheking.mp3"; sourceTree = "<group>"; };
+		D0DC82A42658E3530029D05E /* genune-innerdepths.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "genune-innerdepths.mp3"; sourceTree = "<group>"; };
+		D0DC82A52658E3530029D05E /* gorgoroth-gorgoroth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "gorgoroth-gorgoroth.mp3"; sourceTree = "<group>"; };
+		D0DC82A62658E3530029D05E /* darkfuneral-paganfears.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "darkfuneral-paganfears.mp3"; sourceTree = "<group>"; };
+		D0DC82A72658E3530029D05E /* mysterionnoctum-granitpotemneet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mysterionnoctum-granitpotemneet.mp3"; sourceTree = "<group>"; };
+		D0DC82A82658E3530029D05E /* gorgoroth-destroyer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "gorgoroth-destroyer.mp3"; sourceTree = "<group>"; };
+		D0DC82A92658E3530029D05E /* paroxysmaldescent-beyondthethreshold.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "paroxysmaldescent-beyondthethreshold.mp3"; sourceTree = "<group>"; };
+		D0DC82AA2658E3530029D05E /* darkfuneral-inmydreams.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "darkfuneral-inmydreams.mp3"; sourceTree = "<group>"; };
+		D0DC82AB2658E3530029D05E /* dimmuborgir-dodsferd.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dimmuborgir-dodsferd.mp3"; sourceTree = "<group>"; };
+		D0DC82AC2658E3540029D05E /* darchon-fromunknownvastlandsofisolationanddeath.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "darchon-fromunknownvastlandsofisolationanddeath.mp3"; sourceTree = "<group>"; };
+		D0DC82AD2658E3540029D05E /* coldfrozengrave-ataleofcurseandplague.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "coldfrozengrave-ataleofcurseandplague.mp3"; sourceTree = "<group>"; };
+		D0DC82AE2658E3540029D05E /* kaosritual-djevelpaktogtrolldomsmakt.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "kaosritual-djevelpaktogtrolldomsmakt.mp3"; sourceTree = "<group>"; };
+		D0DC82AF2658E3540029D05E /* ritualsofablasphemer-chaosconsumedexistence.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ritualsofablasphemer-chaosconsumedexistence.mp3"; sourceTree = "<group>"; };
+		D0DC82B02658E3540029D05E /* grimdestroyer-nostalgiaofthedead.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "grimdestroyer-nostalgiaofthedead.mp3"; sourceTree = "<group>"; };
+		D0DC82B12658E3540029D05E /* drakonhail-errancemonotone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "drakonhail-errancemonotone.mp3"; sourceTree = "<group>"; };
+		D0DC82B22658E3540029D05E /* belphegor-fleischrequiem69.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "belphegor-fleischrequiem69.mp3"; sourceTree = "<group>"; };
+		D0DC82B32658E3540029D05E /* darkfuneral-anapprenticeofsatan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "darkfuneral-anapprenticeofsatan.mp3"; sourceTree = "<group>"; };
+		D0DC82E62658E4480029D05E /* mayhem-paganfears.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mayhem-paganfears.mp3"; sourceTree = "<group>"; };
+		D0DC82E72658E4480029D05E /* mayhem-demysteriisdomsathanas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mayhem-demysteriisdomsathanas.mp3"; sourceTree = "<group>"; };
+		D0DC82E82658E4480029D05E /* mayhem-fromthedarkpast.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mayhem-fromthedarkpast.mp3"; sourceTree = "<group>"; };
+		D0DC82E92658E4480029D05E /* mayhem-cursedineternity.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mayhem-cursedineternity.mp3"; sourceTree = "<group>"; };
 		F3A073B4BC37F0AB8A2154FD /* Pods-Atra Vox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atra Vox.release.xcconfig"; path = "Pods/Target Support Files/Pods-Atra Vox/Pods-Atra Vox.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				0B5D26CB20A005EB004FBBA1 /* Atra Vox */,
+				D05497C5265782D500423BE1 /* atravoxdata.json */,
 				0B5D26CA20A005EB004FBBA1 /* Products */,
 				B594F7AAA10F535B58D9A47F /* Pods */,
 				7D16E45F42257299E46E429D /* Frameworks */,
@@ -101,6 +218,7 @@
 		0B5D26CB20A005EB004FBBA1 /* Atra Vox */ = {
 			isa = PBXGroup;
 			children = (
+				D05497C226577FC100423BE1 /* BMSongs */,
 				0B5D26DE20A00805004FBBA1 /* App Delegate */,
 				0B5D26DF20A00817004FBBA1 /* SubGenras */,
 				0BEE52CD20A56D5B00C5C933 /* Supporting Files */,
@@ -109,6 +227,8 @@
 				0BEE52DC20A5798B00C5C933 /* Settings */,
 				0B2EBF7320C65DA900E15D33 /* Cells */,
 				0B728E2920CE08C700D280C2 /* Data Models */,
+				D086A3232659E5A6001B5C43 /* Model */,
+				D086A3242659E5D2001B5C43 /* ViewModel */,
 			);
 			path = "Atra Vox";
 			sourceTree = "<group>";
@@ -206,6 +326,84 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D05497C226577FC100423BE1 /* BMSongs */ = {
+			isa = PBXGroup;
+			children = (
+				D0DC82E92658E4480029D05E /* mayhem-cursedineternity.mp3 */,
+				D0DC82E72658E4480029D05E /* mayhem-demysteriisdomsathanas.mp3 */,
+				D0DC82E82658E4480029D05E /* mayhem-fromthedarkpast.mp3 */,
+				D0DC82E62658E4480029D05E /* mayhem-paganfears.mp3 */,
+				D05497C72657833100423BE1 /* downfallofnur-thegoldenage.mp3 */,
+				D0DC829C2658E3530029D05E /* asmodeus-decretumexecutionis.mp3 */,
+				D0DC82962658E3530029D05E /* astaroth-theblackgoat.mp3 */,
+				D0DC82892658E3530029D05E /* atra-upturningthecurse.mp3 */,
+				D0DC828D2658E3530029D05E /* baptism-onlydeath.mp3 */,
+				D0DC82B22658E3540029D05E /* belphegor-fleischrequiem69.mp3 */,
+				D0DC82AD2658E3540029D05E /* coldfrozengrave-ataleofcurseandplague.mp3 */,
+				D0DC82AC2658E3540029D05E /* darchon-fromunknownvastlandsofisolationanddeath.mp3 */,
+				D0DC82B32658E3540029D05E /* darkfuneral-anapprenticeofsatan.mp3 */,
+				D0DC82942658E3530029D05E /* darkfuneral-darkarethepathstoeternity.mp3 */,
+				D0DC82982658E3530029D05E /* darkfuneral-heartofice.mp3 */,
+				D0DC82AA2658E3530029D05E /* darkfuneral-inmydreams.mp3 */,
+				D0DC82A22658E3530029D05E /* darkfuneral-mydarkdesires.mp3 */,
+				D0DC82872658E3530029D05E /* darkfuneral-openthegates.mp3 */,
+				D0DC82A62658E3530029D05E /* darkfuneral-paganfears.mp3 */,
+				D0DC828C2658E3530029D05E /* darkfuneral-vobiscumsatanas.mp3 */,
+				D0DC82952658E3530029D05E /* diabolusritus-thecoldmoon.mp3 */,
+				D0DC82A02658E3530029D05E /* dimmuborgir-allegiance.mp3 */,
+				D0DC82832658E3530029D05E /* dimmuborgir-broderskapetsring.mp3 */,
+				D0DC82AB2658E3530029D05E /* dimmuborgir-dodsferd.mp3 */,
+				D0DC828E2658E3530029D05E /* dimmuborgir-stormblast.mp3 */,
+				D0DC82B12658E3540029D05E /* drakonhail-errancemonotone.mp3 */,
+				D0DC82882658E3530029D05E /* elffor-infernalwoods.mp3 */,
+				D0DC828B2658E3530029D05E /* eternum-bloodofthefree.mp3 */,
+				D0DC82852658E3530029D05E /* ezgaroth-innominemagnideinostrisathanas.mp3 */,
+				D0DC828A2658E3530029D05E /* ferriterium-feralecarmen.mp3 */,
+				D0DC82A42658E3530029D05E /* genune-innerdepths.mp3 */,
+				D0DC82A82658E3530029D05E /* gorgoroth-destroyer.mp3 */,
+				D0DC82A52658E3530029D05E /* gorgoroth-gorgoroth.mp3 */,
+				D0DC829D2658E3530029D05E /* gorgoroth-possessedbysatan.mp3 */,
+				D0DC82B02658E3540029D05E /* grimdestroyer-nostalgiaofthedead.mp3 */,
+				D0DC829F2658E3530029D05E /* gromm-fromdirttoscum.mp3 */,
+				D0DC82972658E3530029D05E /* hamys-hauraudenjuuret.mp3 */,
+				D0DC829B2658E3530029D05E /* incursus-whendeathenthronesourdarkness.mp3 */,
+				D0DC829E2658E3530029D05E /* initiation-torturedshadowofawitheringsoul.mp3 */,
+				D0DC82AE2658E3540029D05E /* kaosritual-djevelpaktogtrolldomsmakt.mp3 */,
+				D0DC82A32658E3530029D05E /* kingovantichrists-waroftheking.mp3 */,
+				D0DC82822658E3530029D05E /* mord-morningfog.mp3 */,
+				D0DC82A72658E3530029D05E /* mysterionnoctum-granitpotemneet.mp3 */,
+				D0DC82912658E3530029D05E /* noenum-gatestomanicdepressionandsuicide.mp3 */,
+				D0DC829A2658E3530029D05E /* orcultus-purifyingplague.mp3 */,
+				D0DC82A92658E3530029D05E /* paroxysmaldescent-beyondthethreshold.mp3 */,
+				D0DC82AF2658E3540029D05E /* ritualsofablasphemer-chaosconsumedexistence.mp3 */,
+				D0DC82842658E3530029D05E /* saatkrаhe-spreadyourwings.mp3 */,
+				D0DC82922658E3530029D05E /* sarath-sisteindre.mp3 */,
+				D0DC828F2658E3530029D05E /* sarvari-thereturnofgreatgodpan.mp3 */,
+				D0DC82902658E3530029D05E /* siculicidium-lebomlaslelassulas.mp3 */,
+				D0DC82A12658E3530029D05E /* stellaarja-borningstarbymyself.mp3 */,
+				D0DC82932658E3530029D05E /* stutthof-wampyricmetamorphosis.mp3 */,
+				D0DC82862658E3530029D05E /* summoning-morthond.mp3 */,
+				D0DC82992658E3530029D05E /* wyrd-ravenhill.mp3 */,
+			);
+			path = BMSongs;
+			sourceTree = "<group>";
+		};
+		D086A3232659E5A6001B5C43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D086A3252659E60D001B5C43 /* SongModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D086A3242659E5D2001B5C43 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D086A3272659E628001B5C43 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -218,7 +416,6 @@
 				0B5D26C620A005EB004FBBA1 /* Frameworks */,
 				0B5D26C720A005EB004FBBA1 /* Resources */,
 				76FC3DCDAC9247D254735969 /* [CP] Embed Pods Frameworks */,
-				26A7DCA5AE981F95E6350545 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -272,36 +469,77 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0DC82B52658E3540029D05E /* dimmuborgir-broderskapetsring.mp3 in Resources */,
+				D0DC82D22658E3540029D05E /* dimmuborgir-allegiance.mp3 in Resources */,
 				0BDF6C6B20CB5E230052FE54 /* AboutController.storyboard in Resources */,
+				D0DC82E52658E3540029D05E /* darkfuneral-anapprenticeofsatan.mp3 in Resources */,
 				0B5D26D720A005EC004FBBA1 /* LaunchScreen.storyboard in Resources */,
+				D0DC82C72658E3540029D05E /* diabolusritus-thecoldmoon.mp3 in Resources */,
+				D0DC82B42658E3540029D05E /* mord-morningfog.mp3 in Resources */,
 				0BC8686420A0D433000EF7AC /* GoogleService-Info.plist in Resources */,
+				D0DC82BB2658E3540029D05E /* atra-upturningthecurse.mp3 in Resources */,
+				D0DC82C22658E3540029D05E /* siculicidium-lebomlaslelassulas.mp3 in Resources */,
+				D0DC82CA2658E3540029D05E /* darkfuneral-heartofice.mp3 in Resources */,
+				D0DC82D12658E3540029D05E /* gromm-fromdirttoscum.mp3 in Resources */,
+				D0DC82BC2658E3540029D05E /* ferriterium-feralecarmen.mp3 in Resources */,
+				D0DC82D82658E3540029D05E /* darkfuneral-paganfears.mp3 in Resources */,
+				D0DC82CB2658E3540029D05E /* wyrd-ravenhill.mp3 in Resources */,
+				D0DC82DD2658E3540029D05E /* dimmuborgir-dodsferd.mp3 in Resources */,
+				D05497C6265782D500423BE1 /* atravoxdata.json in Resources */,
+				D0DC82CE2658E3540029D05E /* asmodeus-decretumexecutionis.mp3 in Resources */,
+				D0DC82C42658E3540029D05E /* sarath-sisteindre.mp3 in Resources */,
 				0B728E2620CDF80700D280C2 /* GenraController.storyboard in Resources */,
+				D0DC82DE2658E3540029D05E /* darchon-fromunknownvastlandsofisolationanddeath.mp3 in Resources */,
+				D0DC82EC2658E4480029D05E /* mayhem-fromthedarkpast.mp3 in Resources */,
+				D0DC82EB2658E4480029D05E /* mayhem-demysteriisdomsathanas.mp3 in Resources */,
+				D0DC82C02658E3540029D05E /* dimmuborgir-stormblast.mp3 in Resources */,
+				D0DC82B62658E3540029D05E /* saatkrаhe-spreadyourwings.mp3 in Resources */,
+				D0DC82E42658E3540029D05E /* belphegor-fleischrequiem69.mp3 in Resources */,
+				D0DC82D02658E3540029D05E /* initiation-torturedshadowofawitheringsoul.mp3 in Resources */,
+				D0DC82B92658E3540029D05E /* darkfuneral-openthegates.mp3 in Resources */,
+				D0DC82C52658E3540029D05E /* stutthof-wampyricmetamorphosis.mp3 in Resources */,
+				D0DC82C62658E3540029D05E /* darkfuneral-darkarethepathstoeternity.mp3 in Resources */,
+				D0DC82B72658E3540029D05E /* ezgaroth-innominemagnideinostrisathanas.mp3 in Resources */,
+				D0DC82D92658E3540029D05E /* mysterionnoctum-granitpotemneet.mp3 in Resources */,
+				D0DC82B82658E3540029D05E /* summoning-morthond.mp3 in Resources */,
+				D0DC82D32658E3540029D05E /* stellaarja-borningstarbymyself.mp3 in Resources */,
+				D0DC82C82658E3540029D05E /* astaroth-theblackgoat.mp3 in Resources */,
 				0BEE52D120A56EB400C5C933 /* TabBarController.storyboard in Resources */,
+				D0DC82DB2658E3540029D05E /* paroxysmaldescent-beyondthethreshold.mp3 in Resources */,
+				D0DC82E12658E3540029D05E /* ritualsofablasphemer-chaosconsumedexistence.mp3 in Resources */,
+				D0DC82D72658E3540029D05E /* gorgoroth-gorgoroth.mp3 in Resources */,
+				D0DC82C32658E3540029D05E /* noenum-gatestomanicdepressionandsuicide.mp3 in Resources */,
+				D0DC82BA2658E3540029D05E /* elffor-infernalwoods.mp3 in Resources */,
+				D0DC82E22658E3540029D05E /* grimdestroyer-nostalgiaofthedead.mp3 in Resources */,
 				0BEE52DB20A578F300C5C933 /* SettingsController.storyboard in Resources */,
+				D05497C82657833100423BE1 /* downfallofnur-thegoldenage.mp3 in Resources */,
+				D0DC82D52658E3540029D05E /* kingovantichrists-waroftheking.mp3 in Resources */,
+				D0DC82C92658E3540029D05E /* hamys-hauraudenjuuret.mp3 in Resources */,
+				D0DC82BD2658E3540029D05E /* eternum-bloodofthefree.mp3 in Resources */,
+				D0DC82BE2658E3540029D05E /* darkfuneral-vobiscumsatanas.mp3 in Resources */,
 				0B5D26D420A005EC004FBBA1 /* Assets.xcassets in Resources */,
+				D0DC82E32658E3540029D05E /* drakonhail-errancemonotone.mp3 in Resources */,
+				D0DC82DC2658E3540029D05E /* darkfuneral-inmydreams.mp3 in Resources */,
+				D0DC82CC2658E3540029D05E /* orcultus-purifyingplague.mp3 in Resources */,
+				D0DC82DF2658E3540029D05E /* coldfrozengrave-ataleofcurseandplague.mp3 in Resources */,
+				D0DC82BF2658E3540029D05E /* baptism-onlydeath.mp3 in Resources */,
+				D0DC82ED2658E4480029D05E /* mayhem-cursedineternity.mp3 in Resources */,
+				D0DC82D42658E3540029D05E /* darkfuneral-mydarkdesires.mp3 in Resources */,
+				D0DC82EA2658E4480029D05E /* mayhem-paganfears.mp3 in Resources */,
+				D0DC82CF2658E3540029D05E /* gorgoroth-possessedbysatan.mp3 in Resources */,
+				D0DC82D62658E3540029D05E /* genune-innerdepths.mp3 in Resources */,
+				D0DC82C12658E3540029D05E /* sarvari-thereturnofgreatgodpan.mp3 in Resources */,
+				D0DC82DA2658E3540029D05E /* gorgoroth-destroyer.mp3 in Resources */,
 				0BEE52D620A5764400C5C933 /* MainPlayerController.storyboard in Resources */,
 				0B5D26D220A005EB004FBBA1 /* SubGenras.storyboard in Resources */,
+				D0DC82CD2658E3540029D05E /* incursus-whendeathenthronesourdarkness.mp3 in Resources */,
+				D0DC82E02658E3540029D05E /* kaosritual-djevelpaktogtrolldomsmakt.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		26A7DCA5AE981F95E6350545 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Atra Vox/Pods-Atra Vox-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		4E0DD77ED96AE0FB4339CECF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -325,25 +563,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Atra Vox/Pods-Atra Vox-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Atra Vox/Pods-Atra Vox-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Atra Vox/Pods-Atra Vox-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Atra Vox/Pods-Atra Vox-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Atra Vox/Pods-Atra Vox-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -354,6 +583,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BEE52CF20A56EA000C5C933 /* TabBarController.swift in Sources */,
+				D086A3262659E60D001B5C43 /* SongModel.swift in Sources */,
 				0BEE52D920A578E500C5C933 /* SettingsController.swift in Sources */,
 				0B5D26CF20A005EB004FBBA1 /* SubGenrasController.swift in Sources */,
 				0B5D26CD20A005EB004FBBA1 /* AppDelegate.swift in Sources */,
@@ -362,6 +592,7 @@
 				0B728E2B20CE5B9F00D280C2 /* SongsCell.swift in Sources */,
 				0B728E2820CE08BD00D280C2 /* Music.swift in Sources */,
 				0B2EBF7220C65DA300E15D33 /* Cell.swift in Sources */,
+				D086A3282659E628001B5C43 /* ViewModel.swift in Sources */,
 				0BDF6C6920CB5E080052FE54 /* AboutController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

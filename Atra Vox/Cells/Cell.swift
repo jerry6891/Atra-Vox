@@ -12,12 +12,13 @@ import UIKit
 
 final class Cell: UITableViewCell{
     
-    // MARK: IBOutlets
+    // MARK: - IBOutlets
     @IBOutlet var imageViewArrow: UIImageView!
     @IBOutlet var labelGenras: UILabel!
     
-    func setData(genra: Music){
-        self.labelGenras.text = genra.genraName
+    func setData(genra: Genra) {
+        self.labelGenras.text = genra.name
         self.imageViewArrow.image = UIImage(named: "tablearrowicon")
+        // self.labelGenras.text = genra.name
     }
 }

@@ -1,0 +1,374 @@
+{
+  "Genras": [
+    {
+      "Name": "Atmospheric Black Metal",
+      "Songs": [
+        {
+          "band": "Downfall Of Nur",
+          "duration": 1046.4,
+          "title": "The Golden Age",
+          "url": "downfallofnur-thegoldenage"
+        },
+        {
+          "band": "Eternum",
+          "duration": 499.2,
+          "title": "Blood Of The Free",
+          "url": "eternum-bloodofthefree"
+        },
+        {
+          "band": "Ferriterĭum",
+          "duration": 307.2,
+          "title": "Ferale Carmen",
+          "url": "ferriterium-feralecarmen"
+        },
+        {
+          "band": "Paroxysmal Descent",
+          "duration": 435.6,
+          "title": "Beyond The Threshold",
+          "url": "paroxysmaldescent-beyondthethreshold"
+        },
+        {
+          "band": "Stella Arja",
+          "duration": 324,
+          "title": "Borning Star By Myself",
+          "url": "stellaarja-borningstarbymyself"
+        },
+        {
+          "band": "Summoning",
+          "duration": 510,
+          "title": "Morthond",
+          "url": "summoning-morthond"
+        }
+      ]
+    },
+    {
+      "Name": "Depressive Black Metal",
+      "Songs": [
+        {
+          "band": "Mysterion Noctum",
+          "duration": 324,
+          "title": "Granit Potemneet",
+          "url": "mysterionnoctum-granitpotemneet"
+        },
+        {
+          "band": "Noenum",
+          "duration": 560.4,
+          "title": "Gates To Manic Depression And Suicide",
+          "url": "noenum-gatestomanicdepressionandsuicide"
+        },
+        {
+          "band": "Sarath",
+          "duration": 555,
+          "title": "Siste Indre",
+          "url": ""
+        },
+        {
+          "band": "Wyrd",
+          "duration": 505.8,
+          "title": "Ravenhill",
+          "url": "sarath-sisteindre"
+        },
+        {
+          "band": "Cold Frozen Grave",
+          "duration": 540.6,
+          "title": "A Tale Of Curse And Plague",
+          "url": "coldfrozengrave-ataleofcurseandplague"
+        },
+        {
+          "band": "Drakonhail",
+          "duration": 514.2,
+          "title": "Errance Monotone",
+          "url": "drakonhail-errancemonotone"
+        }
+      ]
+    },
+    {
+      "Name": "Evil Black Metal",
+      "Songs": [
+        {
+          "band": "Atra",
+          "duration": 268.8,
+          "title": "Up-Turning The Curse",
+          "url": "atra-upturningthecurse"
+        },
+        {
+          "band": "Ezgaroth",
+          "duration": 483.6,
+          "title": "In Nomine Magni Dei Nostri Sathanas",
+          "url": "ezgaroth-innominemagnideinostrisathanas"
+        },
+        {
+          "band": "Genune",
+          "duration": 664.8,
+          "title": "Inner Depths",
+          "url": "genune-innerdepths"
+        },
+        {
+          "band": "Baptism",
+          "duration": 274.2,
+          "title": "Only Death",
+          "url": "baptism-onlydeath"
+        },
+        {
+          "band": "Incursus",
+          "duration": 370.8,
+          "title": "When Death Enthrones Our Darkness",
+          "url": "incursus-whendeathenthronesourdarkness"
+        },
+        {
+          "band": "Kaosritual",
+          "duration": 670.8,
+          "title": "Djevelpakt Og Trolldomsmakt",
+          "url": ""
+        },
+        {
+          "band": "Orcultus",
+          "duration": 199.8,
+          "title": "Purifying Plague",
+          "url": "kaosritual-djevelpaktogtrolldomsmakt"
+        }
+      ]
+    },
+    {
+      "Name": "Melodic Black Metal",
+      "Songs": [
+        {
+          "band": "Asmodeus",
+          "duration": 264.6,
+          "title": "Decretum Executionis",
+          "url": "asmodeus-decretumexecutionis"
+        },
+        {
+          "band": "Dark Funeral",
+          "duration": 273,
+          "title": "Vobiscum Satanas",
+          "url": "darkfuneral-vobiscumsatanas"
+        },
+        {
+          "band": "Belphegor",
+          "duration": 249.6,
+          "title": "Fleischrequiem 69",
+          "url": "belphegor-fleischrequiem69"
+        },
+        {
+          "band": "Dark Funeral",
+          "duration": 362.4,
+          "title": "An Apprentice Of Satan",
+          "url": "darkfuneral-anapprenticeofsatan"
+        },
+        {
+          "band": "Dark Funeral",
+          "duration": 333.6,
+          "title": "Dark Are The Paths To Eternity",
+          "url": "darkfuneral-darkarethepathstoeternity"
+        },
+        {
+          "band": "Dark Funeral",
+          "duration": 260.4,
+          "title": "Heart Of Ice",
+          "url": "darkfuneral-heartofice"
+        },
+        {
+          "band": "Dark Funeral",
+          "duration": 378.6,
+          "title": "In My Dreams",
+          "url": "darkfuneral-inmydreams"
+        },
+        {
+          "band": "Dark Funeral",
+          "duration": 207.6,
+          "title": "My Dark Desires",
+          "url": "darkfuneral-mydarkdesires"
+        },
+        {
+          "band": "Dark Funeral",
+          "duration": 258.6,
+          "title": "Open The Gates",
+          "url": "darkfuneral-openthegates"
+        },
+        {
+          "band": "Dark Funeral",
+          "duration": 380.4,
+          "title": "Pagan Fears",
+          "url": "darkfuneral-paganfears"
+        }
+      ]
+    },
+    {
+      "Name": "Pagan Black Metal",
+      "Songs": [
+        {
+          "band": "Diabolus Ritus",
+          "duration": 431.4,
+          "title": "The Cold Moon",
+          "url": "diabolusritus-thecoldmoon"
+        },
+        {
+          "band": "Hämys",
+          "duration": 153.6,
+          "title": "Haurauden Juuret",
+          "url": "hamys-hauraudenjuuret"
+        },
+        {
+          "band": "Mord",
+          "duration": 510,
+          "title": "Morning Fog",
+          "url": "mord-morningfog"
+        },
+        {
+          "band": "Rituals Of A Blasphemer",
+          "duration": 258,
+          "title": "Chaos Consumed Existence",
+          "url": "ritualsofablasphemer-chaosconsumedexistence"
+        },
+        {
+          "band": "Sarvari",
+          "duration": 436.8,
+          "title": "The Return Of Great God Pan",
+          "url": "sarvari-thereturnofgreatgodpan"
+        },
+        {
+          "band": "Siculicidium",
+          "duration": 486,
+          "title": "Lebomlás Lelassulás",
+          "url": "siculicidium-lebomlaslelassulas"
+        }
+      ]
+    },
+    {
+      "Name": "Raw Black Metal",
+      "Songs": [
+        {
+          "band": "Astaroth",
+          "duration": 191.4,
+          "title": "The Black Goat",
+          "url": "astaroth-theblackgoat"
+        },
+        {
+          "band": "Gorgoroth",
+          "duration": 332.4,
+          "title": "Gorgoroth",
+          "url": "gorgoroth-gorgoroth"
+        },
+        {
+          "band": "Gromm",
+          "duration": 327.6,
+          "title": "Из грязи - в мразь",
+          "url": "gromm-fromdirttoscum"
+        },
+        {
+          "band": "Initiation",
+          "duration": 387.6,
+          "title": "Tortured Shadow Of A Withering Soul",
+          "url": "initiation-torturedshadowofawitheringsoul"
+        },
+        {
+          "band": "King Ov Antichrists",
+          "duration": 182.4,
+          "title": "War Of The King",
+          "url": "kingovantichrists-waroftheking"
+        },
+        {
+          "band": "Saatkrahe",
+          "duration": 483,
+          "title": "Spread Your Wings",
+          "url": "saatkrаhe-spreadyourwings"
+        },
+        {
+          "band": "Stutthof",
+          "duration": 560.4,
+          "title": "Wampyric Metamorphosis",
+          "url": "stutthof-wampyricmetamorphosis"
+        }
+      ]
+    },
+    {
+      "Name": "Symphonic Black Metal",
+      "Songs": [
+        {
+          "band": "Darchon",
+          "duration": 489,
+          "title": "From Unknown Vastlands of Isolation and Death",
+          "url": "darchon-fromunknownvastlandsofisolationanddeath"
+        },
+        {
+          "band": "Elffor",
+          "duration": 366.6,
+          "title": "Infernal Woods",
+          "url": "elffor-infernalwoods"
+        },
+        {
+          "band": "Grim Destroyer",
+          "duration": 553.2,
+          "title": "Nostalgia Of The Dead",
+          "url": "grimdestroyer-nostalgiaofthedead"
+        },
+        {
+          "band": "Dimmu Borgir",
+          "duration": 330,
+          "title": "Allegiance",
+          "url": "dimmuborgir-allegiance"
+        },
+        {
+          "band": "Dimmu Borgir",
+          "duration": 318.6,
+          "title": "Broderskapets Ring",
+          "url": "dimmuborgir-broderskapetsring"
+        },
+        {
+          "band": "Dimmu Borgir",
+          "duration": 325.2,
+          "title": "Dødsferd",
+          "url": "dimmuborgir-dodsferd"
+        },
+        {
+          "band": "Dimmu Borgir",
+          "duration": 366,
+          "title": "Stormblast",
+          "url": "dimmuborgir-stormblast"
+        }
+      ]
+    },
+    {
+      "Name": "True Black Metal",
+      "Songs": [
+        {
+          "band": "Gorgoroth",
+          "duration": 327.6,
+          "title": "Destroyer",
+          "url": "gorgoroth-destroyer"
+        },
+        {
+          "band": "Gorgoroth",
+          "duration": 270.6,
+          "title": "Possessed (By Satan)",
+          "url": "gorgoroth-possessedbysatan"
+        },
+        {
+          "band": "Mayhem",
+          "duration": 305.4,
+          "title": "Cursed In Eternity",
+          "url": "mayhem-cursedineternity"
+        },
+        {
+          "band": "Mayhem",
+          "duration": 372.6,
+          "title": "De Mysteriis Dom Sathanas",
+          "url": "mayhem-demysteriisdomsathanas"
+        },
+        {
+          "band": "Mayhem",
+          "duration": 315.6,
+          "title": "From The Dark Past",
+          "url": "mayhem-fromthedarkpast"
+        },
+        {
+          "band": "Mayhem",
+          "duration": 372,
+          "title": "Pagan Fears",
+          "url": "mayhem-paganfears"
+        }
+      ]
+    }
+  ]
+}

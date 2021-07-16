@@ -9,12 +9,11 @@
 import Foundation
 import UIKit
 
-final class SettingsController: UIViewController{
+final class SettingsController: UIViewController {
     
     @IBAction func shareButton(_ sender: Any) {
         let activityVC = UIActivityViewController(activityItems: ["https://gerardolozano.myportfolio.com/"], applicationActivities: nil)
         activityVC.popoverPresentationController?.sourceView = self.view
-        
         self.present(activityVC, animated: true, completion: nil)
     }
     

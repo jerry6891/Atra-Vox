@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Use Firebase library to configure APIs
-        FirebaseApp.configure()
+        /* FirebaseApp.configure()
         Auth.auth().signInAnonymously() { (user, error) in
             if error != nil{
                 print(error as Any)
@@ -27,6 +27,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             _ = user!.uid
             print("User logged in anonymously" + user!.uid)
         }
+        // Override point for customization after application launch.
+        return true */
         // Override point for customization after application launch.
         return true
     }
